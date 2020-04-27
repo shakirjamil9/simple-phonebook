@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phone Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fields">
+            <h2>Phone Book</h2>
+            <input type="text" id="fname" placeholder="First Name">
+            <input type="text" id="lname" placeholder="Last Name">
+            <input type="email" id="email" placeholder="E-mail">
+            <input type="text" id="phone" placeholder="Phone Number">
+            <button id="save" onclick="savedata()">Save</button>
+            <button id="search" onclick="searchdata()">Search</button>
+            <button id="new" onclick="newdata()">New</button>
+            <h3 id="data"></h3>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
